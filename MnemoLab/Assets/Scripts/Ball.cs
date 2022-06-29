@@ -10,16 +10,25 @@ public class Ball : MonoBehaviour
     public bool pinta;
     private void Start()
     {
-        _rb.AddForce(transform.right * 500, ForceMode.Impulse);
+        //_rb.AddForce(transform.right * 500, ForceMode.Impulse);
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (!pinta)
+        if (other.CompareTag("Wall"))
         {
-            Instantiate(_light, transform.position, Quaternion.identity);
-            _rb.AddForce(_rb.velocity.x + 50, _rb.velocity.y + 50, _rb.velocity.z + 50);
-            rebotes++;
+            if (pinta)
+            {
+                Instantiate(_light, transform.position, Quaternion.identity);
+                _rb.AddForce(_rb.velocity.x + 50, _rb.velocity.y + 50, _rb.velocity.z + 50);
+                rebotes++;
+            }
         }
+    }
+
+    public void LaunchBall()
+    {
+        Debug.Log("Activating");
+        _rb.AddForce(transform.forward * 50, ForceMode.Impulse);
     }
 
     private void Update()
