@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/carlos/Documents/Proyectos Unity/MnemoLab/MnemoLab
+C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64610
-Successfully changed project path to: C:/Users/carlos/Documents/Proyectos Unity/MnemoLab/MnemoLab
-C:/Users/carlos/Documents/Proyectos Unity/MnemoLab/MnemoLab
+62213
+Successfully changed project path to: C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
+C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 144.66 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.78 ms.
+Refreshing native plugins compatible for Editor in 185.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.97 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/carlos/Documents/Proyectos Unity/MnemoLab/MnemoLab/Assets
+[Subsystems] Discovering subsystems at path C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003241 seconds.
+Registered in 0.003281 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.64 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 131.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.519 seconds
+- Completed reload, in  3.634 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3520ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (3634ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (770ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (342ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
-				BeforeProcessingInitializeOnLoad (27ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016191 seconds.
+Registered in 0.019058 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 135.86 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 138.79 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.284 seconds
+- Completed reload, in  2.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2285ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (2432ms)
+		BeginReloadAssembly (246ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1938ms)
-			LoadAssemblies (168ms)
+		EndReloadAssembly (2072ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (595ms)
+			SetupTypeCache (620ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (843ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (898ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
 Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 182.8 MB.
 System memory in use after: 183.0 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4277.
-Total: 5.424600 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.282300 ms MarkObjects: 4.660400 ms  DeleteObjects: 0.045400 ms)
+Total: 8.271000 ms (FindLiveObjects: 0.724300 ms CreateObjectMapping: 0.413900 ms MarkObjects: 7.081600 ms  DeleteObjects: 0.049200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,25 +150,856 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/VRTesting.unity
-  artifactKey: Guid(943ecab5b861de341a78e6f6c462c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VRTesting.unity using Guid(943ecab5b861de341a78e6f6c462c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64fa9e6b8373a66df058ad56a022463') in 0.026618 seconds 
-  Import took 0.035671 seconds .
+  path: Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
+  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef9570fd3e5ffc381dde5664b4f438') in 0.567343 seconds 
+  Import took 0.576308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.585834 seconds.
-  path: Assets/Scenes/Demo.unity
-  artifactKey: Guid(61c0801b38c9bec4297253f77f3b50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Demo.unity using Guid(61c0801b38c9bec4297253f77f3b50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17537cd64da8f7cf17fbab1c98244257') in 0.011229 seconds 
-  Import took 0.020524 seconds .
+  Time since last request: 0.000572 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatShaded(Mobile).mat
+  artifactKey: Guid(c72eb4e090afab244af1a9e070e87ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatShaded(Mobile).mat using Guid(c72eb4e090afab244af1a9e070e87ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50381bdde01f7785f84c351eeefb888') in 0.099662 seconds 
+  Import took 0.110579 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.886806 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6acc2f9f397c99235be49813a066a8') in 0.174901 seconds 
-  Import took 0.184207 seconds .
+  Time since last request: 0.000432 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatDrop(Mobile).mat
+  artifactKey: Guid(c34a373035343f34c8bd2bd8c0902d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatDrop(Mobile).mat using Guid(c34a373035343f34c8bd2bd8c0902d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87de12867b100dc1fd1baa07ce34a539') in 0.022471 seconds 
+  Import took 0.033933 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SkullBones.mat
+  artifactKey: Guid(fe1428d7fd97c1545aae36eab13489bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SkullBones.mat using Guid(fe1428d7fd97c1545aae36eab13489bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65d30da5ab4453f4efde07c586e8711') in 0.022297 seconds 
+  Import took 0.035355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SplatShaded.mat
+  artifactKey: Guid(52086b1b3e210b0418dd830bf2d7f233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SplatShaded.mat using Guid(52086b1b3e210b0418dd830bf2d7f233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b41cdf554d934930f7ae685ea7d1340') in 0.031564 seconds 
+  Import took 0.042452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
+  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dbd09ac6509aca94ac0f203766fb4e') in 0.215470 seconds 
+  Import took 0.226247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Props/FBX/White.mat
+  artifactKey: Guid(4c889e15dff46964192a4011ad5d9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FBX/White.mat using Guid(4c889e15dff46964192a4011ad5d9db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9f956d9cda644f389ab7adbbce01a5') in 0.022159 seconds 
+  Import took 0.033577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SkullShaded(Mobile).mat
+  artifactKey: Guid(4b08598a17ad4414a8b5d4ba78fc2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SkullShaded(Mobile).mat using Guid(4b08598a17ad4414a8b5d4ba78fc2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd652d84ab1a9e304ac7ec96051d0b33b') in 0.025626 seconds 
+  Import took 0.037081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Materials/penelopeTorres 1.mat
+  artifactKey: Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/penelopeTorres 1.mat using Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b20a5c60895da9158ecfbaaec7d9aa7') in 0.029502 seconds 
+  Import took 0.039131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SplatSpikyShiny.mat
+  artifactKey: Guid(7800df95b2fb5d54393f95259920702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SplatSpikyShiny.mat using Guid(7800df95b2fb5d54393f95259920702d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3d59a03619b567967f973dea6f0afc') in 0.028589 seconds 
+  Import took 0.041467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SkullBones(Mobile).mat
+  artifactKey: Guid(cb8aa8d45791f014893ebd3c5e584cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SkullBones(Mobile).mat using Guid(cb8aa8d45791f014893ebd3c5e584cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31616c2b7621ad9f800e82637f2e4ece') in 0.022980 seconds 
+  Import took 0.037313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatDropShaded(Mobile).mat
+  artifactKey: Guid(ebc0a4190a785c140a449d1ebccac49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatDropShaded(Mobile).mat using Guid(ebc0a4190a785c140a449d1ebccac49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c735c6530fff734e96f17b33e43c1b') in 0.025238 seconds 
+  Import took 0.037715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti(Mobile).mat
+  artifactKey: Guid(325e833e73b5a804dadfd32f34970490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti(Mobile).mat using Guid(325e833e73b5a804dadfd32f34970490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ea0b33b53b1b4054473b87862e121e') in 0.024171 seconds 
+  Import took 0.035254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Models/cat.fbx.fbx
+  artifactKey: Guid(91c00e5c638bf9d4a93eb7016373afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cat.fbx.fbx using Guid(91c00e5c638bf9d4a93eb7016373afd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c803e3e93cded426d5b855969120b') in 0.147713 seconds 
+  Import took 0.158705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
+  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480017483924ccadc647c319187641ad') in 0.027691 seconds 
+  Import took 0.038671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8801dd562fdfda3c08e3b8aa3ee1da') in 0.038658 seconds 
+  Import took 0.049576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf2501266bdbc12bd734f077e12b4a2') in 0.441785 seconds 
+  Import took 0.451681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti2x2(Mobile).mat
+  artifactKey: Guid(72ff1315421d23d4b9c089f014b5c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti2x2(Mobile).mat using Guid(72ff1315421d23d4b9c089f014b5c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878e7934231041ddf163a4708acff52f') in 0.027103 seconds 
+  Import took 0.036883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Skull.mat
+  artifactKey: Guid(70182c229c4d02947915ef825b9a3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Skull.mat using Guid(70182c229c4d02947915ef825b9a3ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aee60a24d9712c6f2fa5130e9a2e8a') in 0.025449 seconds 
+  Import took 0.035308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e280d419513097aac0f6f816b5de9ce7') in 0.042611 seconds 
+  Import took 0.058168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/FlowerPink(Mobile).mat
+  artifactKey: Guid(83af27b3f3218d747a1287a4c05cb8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/FlowerPink(Mobile).mat using Guid(83af27b3f3218d747a1287a4c05cb8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723ebd77281283c428ea2ea9755a73ca') in 0.038289 seconds 
+  Import took 0.048762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat
+  artifactKey: Guid(5e148de6cdf2d164aa3e3f90ce8c852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat using Guid(5e148de6cdf2d164aa3e3f90ce8c852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1385ad24035b7611cc7f98fe80f059') in 0.049384 seconds 
+  Import took 0.059928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti3D(Mobile).mat
+  artifactKey: Guid(d431d4839b9f90f4591328dc12dd6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti3D(Mobile).mat using Guid(d431d4839b9f90f4591328dc12dd6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81941c0eb19233313a5b738f3d7f589') in 0.024336 seconds 
+  Import took 0.034261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpikyDrops(Mobile).mat
+  artifactKey: Guid(328441669d81fa54591f274b618529db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpikyDrops(Mobile).mat using Guid(328441669d81fa54591f274b618529db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eefa44771aa040f585ef4460ded046f') in 0.024269 seconds 
+  Import took 0.035757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/FireSpecial2x2.mat
+  artifactKey: Guid(b7de2531263881c468644656a81e4d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/FireSpecial2x2.mat using Guid(b7de2531263881c468644656a81e4d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c758f5f177931bd48e54e1564622b92') in 0.025241 seconds 
+  Import took 0.037558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Snowflake(Mobile).mat
+  artifactKey: Guid(7733f3c7c7f56ee40b537ad576bb1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Snowflake(Mobile).mat using Guid(7733f3c7c7f56ee40b537ad576bb1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9186bd3998cde81b65822e112d0f73f') in 0.038412 seconds 
+  Import took 0.050134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Heart(Mobile).mat
+  artifactKey: Guid(1078e4f2bc440ca459148b801d403fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Heart(Mobile).mat using Guid(1078e4f2bc440ca459148b801d403fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0547ab12d70d5e4f9fab8c2b8898dd66') in 0.027817 seconds 
+  Import took 0.037720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/GlowlinesSharp.mat
+  artifactKey: Guid(21756470ea7154f4d987ed8e57c82435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/GlowlinesSharp.mat using Guid(21756470ea7154f4d987ed8e57c82435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d66b05eec69196c631836847618524') in 0.026971 seconds 
+  Import took 0.037098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/PunchSmooth.mat
+  artifactKey: Guid(1223104b745feca42801a71ac88d52fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/PunchSmooth.mat using Guid(1223104b745feca42801a71ac88d52fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92af46c5e932aa21dd19ffb6cece04a6') in 0.031207 seconds 
+  Import took 0.041926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SkullBonesShaded(Mobile).mat
+  artifactKey: Guid(2eb763d9829d16b43bb5a55e2b2ec267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SkullBonesShaded(Mobile).mat using Guid(2eb763d9829d16b43bb5a55e2b2ec267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6999691bf3dd7ba804a43dd694e00d6') in 0.032127 seconds 
+  Import took 0.044859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/ToonFX/Demo/Materials/Floor.mat
+  artifactKey: Guid(76c7bd0ddf77f6b4f8086c29135c0e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Demo/Materials/Floor.mat using Guid(76c7bd0ddf77f6b4f8086c29135c0e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0c84ead4a042d7eca77e7ad81efbff') in 0.029840 seconds 
+  Import took 0.038733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/GlowRound(Mobile).mat
+  artifactKey: Guid(35be2343c21301849bef48b38c776263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/GlowRound(Mobile).mat using Guid(35be2343c21301849bef48b38c776263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53c498f177ce9ea20005fc6a12ab52e') in 0.027476 seconds 
+  Import took 0.036691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
+  artifactKey: Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat using Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60db244203c9c1707bcc2eb653c6e8bc') in 0.475536 seconds 
+  Import took 0.490322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/GlowlinesSharp(Mobile).mat
+  artifactKey: Guid(ce3531d65868ee049b5ffe02dd57b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/GlowlinesSharp(Mobile).mat using Guid(ce3531d65868ee049b5ffe02dd57b954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f936871d867c5e47b15afea0a3778054') in 0.033138 seconds 
+  Import took 0.044606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
+  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4884f07afdfb6d8f6660226687b6b8') in 0.035643 seconds 
+  Import took 0.053749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Clouds(Mobile).mat
+  artifactKey: Guid(8013662bf2b2a4247a4bd2eaa323c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Clouds(Mobile).mat using Guid(8013662bf2b2a4247a4bd2eaa323c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd6bd43212d425508e729cc033ff487') in 0.024728 seconds 
+  Import took 0.034234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
+  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c53a1c1b2e7886eba6976652b4b2f6') in 0.023551 seconds 
+  Import took 0.033948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SnowflakeOffcenter.mat
+  artifactKey: Guid(b9f1045339664c342bf958e5b255eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SnowflakeOffcenter.mat using Guid(b9f1045339664c342bf958e5b255eb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39edb478a2a6471b12b656bf791186e2') in 0.027911 seconds 
+  Import took 0.038497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpiky(Mobile).mat
+  artifactKey: Guid(cf43862dda30c1845a8507dc48279d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpiky(Mobile).mat using Guid(cf43862dda30c1845a8507dc48279d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cd2c64bfe4927334a9a383437688b8') in 0.024490 seconds 
+  Import took 0.035325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ToonFX/Materials/FlowerBlue.mat
+  artifactKey: Guid(613ea9388695b9347a0235b43b2735f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/FlowerBlue.mat using Guid(613ea9388695b9347a0235b43b2735f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c356a03454500a14b3e3180b20b97a') in 0.026304 seconds 
+  Import took 0.038882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat
+  artifactKey: Guid(a54b7ad866d3a9b47bbf3b53baa0acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat using Guid(a54b7ad866d3a9b47bbf3b53baa0acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefac53bf538dd2290e362294ad8a4fa') in 0.024195 seconds 
+  Import took 0.036386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpikyShiny(Mobile).mat
+  artifactKey: Guid(62f5d880643274c47af6a7ec9e637337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SplatSpikyShiny(Mobile).mat using Guid(62f5d880643274c47af6a7ec9e637337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06b305f7f5772f8328943330dfb834a') in 0.023102 seconds 
+  Import took 0.036437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Scripts/Luces/Black.mat
+  artifactKey: Guid(3ea095fd796c3a640b1c12552845b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Luces/Black.mat using Guid(3ea095fd796c3a640b1c12552845b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb3484ee521dc181a773c2d7870402b') in 0.021035 seconds 
+  Import took 0.032089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d80618d00d1f55f91ea42d9909a41a') in 0.039917 seconds 
+  Import took 0.053447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Confetti2x2.mat
+  artifactKey: Guid(9968c0dba35a227428367f257ed8cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Confetti2x2.mat using Guid(9968c0dba35a227428367f257ed8cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e4e929d62cc1d511498d8644fc794b') in 0.023760 seconds 
+  Import took 0.034732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SkullShaded.mat
+  artifactKey: Guid(dfeb8b25299690d488aee8b8bfa3b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SkullShaded.mat using Guid(dfeb8b25299690d488aee8b8bfa3b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87081c6bd9af9c892717fe88a7930250') in 0.025028 seconds 
+  Import took 0.038248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/SnowflakeOffcenter(Mobile).mat
+  artifactKey: Guid(459eb01bfbc58454e84d87a27e64bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/SnowflakeOffcenter(Mobile).mat using Guid(459eb01bfbc58454e84d87a27e64bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621d3054b9076445a49fe63c32ccc515') in 0.023586 seconds 
+  Import took 0.036149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39528275e52f1039559bbf27f2cf8901') in 0.456969 seconds 
+  Import took 0.471486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/penelopeTorres.mat
+  artifactKey: Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/penelopeTorres.mat using Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363d6bb7bec9a5e42082765b793a204f') in 0.024407 seconds 
+  Import took 0.038599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5912eaab290083cfab19875050978df') in 0.044121 seconds 
+  Import took 0.056191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/PunchSmooth(Mobile).mat
+  artifactKey: Guid(6e4dba71422dc984faafb842fd208ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/PunchSmooth(Mobile).mat using Guid(6e4dba71422dc984faafb842fd208ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d04c70ea330a7b0717241a2e5348017') in 0.024799 seconds 
+  Import took 0.038232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Bubble(Mobile).mat
+  artifactKey: Guid(64c641e8cb591174bb10d123517f4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Bubble(Mobile).mat using Guid(64c641e8cb591174bb10d123517f4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140d893e09e7e571969c63d560998147') in 0.028491 seconds 
+  Import took 0.037965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SplatDropShaded.mat
+  artifactKey: Guid(dce35da6be273664f91e584454a12574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SplatDropShaded.mat using Guid(dce35da6be273664f91e584454a12574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b744d0809ed0c108ff423e7c38fecc') in 0.024929 seconds 
+  Import took 0.035176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion03(Mobile).mat
+  artifactKey: Guid(85b2d8373ff890e4491b802c90d4d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion03(Mobile).mat using Guid(85b2d8373ff890e4491b802c90d4d4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1c971c121243860eb197c3acb01bd3') in 0.025630 seconds 
+  Import took 0.035589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat
+  artifactKey: Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat using Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f563a4c62d5358a45942cc61f5fb904') in 0.027809 seconds 
+  Import took 0.039301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
+  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02481a3ba2e21a53aec2ac0f1fe32318') in 0.050442 seconds 
+  Import took 0.065563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dcc8673b65ba9558e0af30fa151ca3') in 0.088362 seconds 
+  Import took 0.100824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/FireSpecial2x2(Mobile).mat
+  artifactKey: Guid(9d00032ccf574f3419ab755ce3f5f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/FireSpecial2x2(Mobile).mat using Guid(9d00032ccf574f3419ab755ce3f5f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0845e4230ed200b53856e64b33decb90') in 0.028669 seconds 
+  Import took 0.041984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab34758aae7703211614d18a064e63b6') in 0.051375 seconds 
+  Import took 0.064162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SkullBonesShaded.mat
+  artifactKey: Guid(1a7d3d4b9b0447d45992c66df069e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SkullBonesShaded.mat using Guid(1a7d3d4b9b0447d45992c66df069e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e46ef55f6a6d3b421a1e8e315489a') in 0.023961 seconds 
+  Import took 0.039588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Cat/Materials/cat.mat
+  artifactKey: Guid(55ad2216fa554594ca6aaa2253e71753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cat/Materials/cat.mat using Guid(55ad2216fa554594ca6aaa2253e71753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c8fc84a91425aef37f04008610e7d') in 0.033107 seconds 
+  Import took 0.043319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/PoofLinesDark(Mobile).mat
+  artifactKey: Guid(ddd587eb81f29ef4ab209d1fae4a0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/PoofLinesDark(Mobile).mat using Guid(ddd587eb81f29ef4ab209d1fae4a0523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e239926e136cdb1a066bd1d6ea5a96') in 0.026983 seconds 
+  Import took 0.038147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Props/FBX/no white.mat
+  artifactKey: Guid(5338b9d7c2b02e3449bd19adba4fc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FBX/no white.mat using Guid(5338b9d7c2b02e3449bd19adba4fc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af5506d0d1608d620d99536b0713809') in 0.021825 seconds 
+  Import took 0.033298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/FlowerBlue(Mobile).mat
+  artifactKey: Guid(d9b45839d22b58c44b37980dab330fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/FlowerBlue(Mobile).mat using Guid(d9b45839d22b58c44b37980dab330fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ebc23973e9d4cc1aef53dd24b18e7') in 0.027494 seconds 
+  Import took 0.040599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion01(Mobile).mat
+  artifactKey: Guid(98435b2e5ea68d64f9d91aa4be9d7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion01(Mobile).mat using Guid(98435b2e5ea68d64f9d91aa4be9d7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919fa1a0b8ccd6d1c20b954731f53f7') in 0.026539 seconds 
+  Import took 0.041414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Heart.mat
+  artifactKey: Guid(64ed93094fc974e4495f9885e3088cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Heart.mat using Guid(64ed93094fc974e4495f9885e3088cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19980e84b8c247ff0b918519d1732c4c') in 0.025294 seconds 
+  Import took 0.036894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat
+  artifactKey: Guid(cba66c276aed0874091de1c33eb3950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat using Guid(cba66c276aed0874091de1c33eb3950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491e4cb52560c2560dd96efe425aaf78') in 0.027945 seconds 
+  Import took 0.042379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/GlowRound.mat
+  artifactKey: Guid(22e687903a97ecd469b7fd743108d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/GlowRound.mat using Guid(22e687903a97ecd469b7fd743108d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c763d142ab0ff1895f82c3b3445123f') in 0.023673 seconds 
+  Import took 0.037491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat
+  artifactKey: Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat using Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666d1004a27cbb06a2958803da9a2aec') in 0.048014 seconds 
+  Import took 0.060543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/ToonFX/Materials/Fire.mat
+  artifactKey: Guid(b0da7cceca6665c45bfae6b7315a0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Fire.mat using Guid(b0da7cceca6665c45bfae6b7315a0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27539aeab384e65d1b90e0dfafcfd044') in 0.026052 seconds 
+  Import took 0.038267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Star(Mobile).mat
+  artifactKey: Guid(83052ad985f13034898a84b819bccf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Star(Mobile).mat using Guid(83052ad985f13034898a84b819bccf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04050bd553a95bdacce14e100541ccbb') in 0.026262 seconds 
+  Import took 0.038688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Pintura/ParticleMaterial.mat
+  artifactKey: Guid(b6f23ba30f3979b4680ff17e52b02266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pintura/ParticleMaterial.mat using Guid(b6f23ba30f3979b4680ff17e52b02266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c345b980ccf853aff0acda9a0df264c3') in 0.042354 seconds 
+  Import took 0.054248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ToonFX/Materials/FlowerPink.mat
+  artifactKey: Guid(2e76a9a9ee1fa4e4c959f2cf8c046f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/FlowerPink.mat using Guid(2e76a9a9ee1fa4e4c959f2cf8c046f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88cd5af4e782cfaf126529aa0afbd78') in 0.053777 seconds 
+  Import took 0.066462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001039 seconds.
+  path: Assets/ToonFX/Materials/BubbleSoap.mat
+  artifactKey: Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/BubbleSoap.mat using Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8282825debc1a2e8a4deeff051dbf83') in 0.026502 seconds 
+  Import took 0.038945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Snowflake.mat
+  artifactKey: Guid(eda608d90bbaf6f4fb43584819eac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Snowflake.mat using Guid(eda608d90bbaf6f4fb43584819eac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2206407fbec8df24861401b301449') in 0.025740 seconds 
+  Import took 0.036529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat
+  artifactKey: Guid(663834164c6a04740aaa1b778249ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat using Guid(663834164c6a04740aaa1b778249ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dd5060775031cb8eed0d28b84fbfb5') in 0.025567 seconds 
+  Import took 0.039891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
+  artifactKey: Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat using Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6865eb84a3d8894595b832c4c5a38c9') in 0.050012 seconds 
+  Import took 0.061646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Confetti.mat
+  artifactKey: Guid(17628b03f20744640a67d3035bde9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Confetti.mat using Guid(17628b03f20744640a67d3035bde9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce28184214d8d83a545037cca3b48e7') in 0.032336 seconds 
+  Import took 0.045027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fee96488a8865fee0d7f9857aab5d2a') in 0.033460 seconds 
+  Import took 0.044660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Pintura/PaintableWall.mat
+  artifactKey: Guid(2f0e02fb50cd05740a6324f762bc3dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pintura/PaintableWall.mat using Guid(2f0e02fb50cd05740a6324f762bc3dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329512dc98ead9222b8abf85c79a51e0') in 0.035511 seconds 
+  Import took 0.048173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acb8edbd173a0ac40694c999bd5c2d8') in 0.048325 seconds 
+  Import took 0.056986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/CloudsDark(Mobile).mat
+  artifactKey: Guid(dc2ce313808c77e478ce2e4323a2524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/CloudsDark(Mobile).mat using Guid(dc2ce313808c77e478ce2e4323a2524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc6acb055c152328069c8b3feefec14') in 0.023464 seconds 
+  Import took 0.037703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c079c48822e66a94c44e654c13820aa') in 0.047482 seconds 
+  Import took 0.058592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Confetti3D.mat
+  artifactKey: Guid(9a0c3c685c6529c428b94ebad642a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Confetti3D.mat using Guid(9a0c3c685c6529c428b94ebad642a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809c87b09998950e6781eb436f52ed3') in 0.024297 seconds 
+  Import took 0.034602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/PoofLines(Mobile).mat
+  artifactKey: Guid(ff3c023faed811144b4571ec3832338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/PoofLines(Mobile).mat using Guid(ff3c023faed811144b4571ec3832338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8b077deaec74c03ab9a1bd6c5398ac') in 0.038000 seconds 
+  Import took 0.049587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55e203df5caefadb055356191fc2730') in 0.047998 seconds 
+  Import took 0.058504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SplatSpikyDrops.mat
+  artifactKey: Guid(82693dd259627004cab311a2e4dc22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SplatSpikyDrops.mat using Guid(82693dd259627004cab311a2e4dc22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ffc7589c1f9b72c597a3141dd48fd8') in 0.022540 seconds 
+  Import took 0.034784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Skull(Mobile).mat
+  artifactKey: Guid(287f773b105939b42a55d589f322f762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Skull(Mobile).mat using Guid(287f773b105939b42a55d589f322f762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d12bd4f16db62f6966ae7b3ff8c022') in 0.027120 seconds 
+  Import took 0.037056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd52eb37315172198cb4c9a594469b57') in 0.026426 seconds 
+  Import took 0.035949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ad532a397b2ba30bd77e68392fe1cc') in 0.074572 seconds 
+  Import took 0.085195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion02(Mobile).mat
+  artifactKey: Guid(df6619bc088292e44856de242d0dcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion02(Mobile).mat using Guid(df6619bc088292e44856de242d0dcf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be2a9b9c41b4ac322c28f250c412e5f') in 0.024628 seconds 
+  Import took 0.037727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat
+  artifactKey: Guid(b0b4de3bd6e976e4f8b3adc6e72377ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat using Guid(b0b4de3bd6e976e4f8b3adc6e72377ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bc21ce786fc0e02957b69598dac5c7') in 0.026432 seconds 
+  Import took 0.037275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
+  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d34cf1934d15f43e48412c54eee81cc') in 0.028075 seconds 
+  Import took 0.037068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Splat(Mobile).mat
+  artifactKey: Guid(c05de84fa6a77f34888c40b2609c88f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Splat(Mobile).mat using Guid(c05de84fa6a77f34888c40b2609c88f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a865baeb51711ec73f563a76d46bde2b') in 0.028128 seconds 
+  Import took 0.042318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/Bubble.mat
+  artifactKey: Guid(79bfcc36a862f4940be733f2ff6f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/Bubble.mat using Guid(79bfcc36a862f4940be733f2ff6f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359b1f903507a640c7ed7d0c2798aa3') in 0.027947 seconds 
+  Import took 0.040808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Fire(Mobile).mat
+  artifactKey: Guid(30a341bf31af0704b97eecb139003fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Fire(Mobile).mat using Guid(30a341bf31af0704b97eecb139003fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a291d4efe4b3c1e42583c0fc2d2815fc') in 0.099664 seconds 
+  Import took 0.110481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/ToonFX/Materials/Recolorable/SplatSpiky.mat
+  artifactKey: Guid(ac98a34601e1ad846af06873b3a8d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials/Recolorable/SplatSpiky.mat using Guid(ac98a34601e1ad846af06873b3a8d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f789ea11f889c5a2e03828bca89df7bd') in 0.025032 seconds 
+  Import took 0.033207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Sparkle(Mobile).mat
+  artifactKey: Guid(2ec4a819252d3174696ba61cb9085215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Sparkle(Mobile).mat using Guid(2ec4a819252d3174696ba61cb9085215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6642237867e50d2db628821013e24f') in 0.031475 seconds 
+  Import took 0.042091 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\carlos\Documents\Proyectos Unity\MnemoLab\MnemoLab\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\carlos\Documents\Proyectos Unity\MnemoLab\MnemoLab\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2108ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1795ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (624ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.2 MB.
+System memory in use after: 180.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4326.
+Total: 5.790800 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.305100 ms MarkObjects: 4.901300 ms  DeleteObjects: 0.109700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
