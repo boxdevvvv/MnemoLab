@@ -19,7 +19,7 @@ public class Ball : MonoBehaviour
             if (pinta)
             {
                 Instantiate(_light, transform.position, Quaternion.identity);
-                _rb.AddForce(_rb.velocity.x + 50, _rb.velocity.y + 50, _rb.velocity.z + 50);
+               // _rb.AddForce(_rb.velocity.x + 50, _rb.velocity.y + 50, _rb.velocity.z + 50);
                 rebotes++;
             }
         }
