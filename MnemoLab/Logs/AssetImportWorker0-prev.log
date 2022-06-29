@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19044.1766; Version 2009; 64bit' Language: 'es' Physical Memory: 16221 MB
+OS: 'Windows 10 Pro; OS build 19044.1766; Version 2009; 64bit' Language: 'es' Physical Memory: 24517 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,80 +11,80 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
+E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62084
-Successfully changed project path to: C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
-C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab
+64083
+Successfully changed project path to: E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
+E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 181.50 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.36 ms.
+Refreshing native plugins compatible for Editor in 157.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.66 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/carlos/Documents/Vacia/MnemoLab/MnemoLab/Assets
+[Subsystems] Discovering subsystems at path E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.5167
+    VRAM:     6052 MB
+    Driver:   30.0.14.9676
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003368 seconds.
+Registered in 0.005643 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 177.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 102.76 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.917 seconds
+- Completed reload, in  1.962 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3917ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1962ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (963ms)
-			LoadAssemblies (108ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (177ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016901 seconds.
+Registered in 0.016857 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 187.46 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 102.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\carlos\Documents\Proyectos Unity\MnemoLab\MnemoLab\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\carlos\Documents\Proyectos Unity\MnemoLab\MnemoLab\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <5b200cfe90404dabaf74ba5f97ee2d12>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <5b200cfe90404dabaf74ba5f97ee2d12>:0 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.625 seconds
+- Completed reload, in  2.094 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2627ms)
-		BeginReloadAssembly (268ms)
+	ReloadAssembly (2095ms)
+		BeginReloadAssembly (246ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (2226ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1742ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (678ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (961ms)
+			SetupTypeCache (541ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (188ms)
-				BeforeProcessingInitializeOnLoad (231ms)
-				ProcessInitializeOnLoadAttributes (478ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 182.9 MB.
-System memory in use after: 183.1 MB.
+System memory in use after: 183.2 MB.
 
 Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4277.
-Total: 5.827500 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.273000 ms MarkObjects: 5.038400 ms  DeleteObjects: 0.060200 ms)
+Total: 4.403200 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.196300 ms MarkObjects: 3.807900 ms  DeleteObjects: 0.040700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -145,206 +145,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Cat/ball.mat
-  artifactKey: Guid(6e8bafa3494645a4087ad7608f0f72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cat/ball.mat using Guid(6e8bafa3494645a4087ad7608f0f72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f764bab0343a0f753b8b6700ed0fb9') in 0.212737 seconds 
-  Import took 0.226418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Scripts/Luces/Black.mat
-  artifactKey: Guid(3ea095fd796c3a640b1c12552845b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Luces/Black.mat using Guid(3ea095fd796c3a640b1c12552845b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb3484ee521dc181a773c2d7870402b') in 0.029796 seconds 
-  Import took 0.042865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Confetti.mat
-  artifactKey: Guid(17628b03f20744640a67d3035bde9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Confetti.mat using Guid(17628b03f20744640a67d3035bde9262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce28184214d8d83a545037cca3b48e7') in 0.024301 seconds 
-  Import took 0.038234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Confetti2x2.mat
-  artifactKey: Guid(9968c0dba35a227428367f257ed8cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Confetti2x2.mat using Guid(9968c0dba35a227428367f257ed8cdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e4e929d62cc1d511498d8644fc794b') in 0.030371 seconds 
-  Import took 0.040547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Explosion01.mat
-  artifactKey: Guid(9a2290dfe5dcb914182871d3f01edbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Explosion01.mat using Guid(9a2290dfe5dcb914182871d3f01edbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aba709b75a2dbef85fa3fb1fd0d93a') in 0.038217 seconds 
-  Import took 0.053319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000789 seconds.
-  path: Assets/Cat/mapa_casi_terminado_mnemo.0.4.5.fbx
-  artifactKey: Guid(ea30fe5fa8934044aad46b5dabd1c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cat/mapa_casi_terminado_mnemo.0.4.5.fbx using Guid(ea30fe5fa8934044aad46b5dabd1c4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a32d89ca1ee6998dda70d33e7f564a4') in 2.165912 seconds 
-  Import took 2.178281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/ToonFX/Materials/Coins01.mat
-  artifactKey: Guid(ae3076ed5eeb1fc4aa616bc74f63ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Coins01.mat using Guid(ae3076ed5eeb1fc4aa616bc74f63ea34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33f02efd7d0b7cf34319e5cb50e74d') in 0.034460 seconds 
-  Import took 0.047156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Bubble(Mobile).mat
-  artifactKey: Guid(64c641e8cb591174bb10d123517f4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Bubble(Mobile).mat using Guid(64c641e8cb591174bb10d123517f4433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140d893e09e7e571969c63d560998147') in 0.035704 seconds 
-  Import took 0.047843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/CloudsDark.mat
-  artifactKey: Guid(b548030b922e8d7418bbbeff2655ab18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/CloudsDark.mat using Guid(b548030b922e8d7418bbbeff2655ab18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c90d198e8c147cb90efc86db9202e3c') in 0.023886 seconds 
-  Import took 0.043734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/CloudsDark(Mobile).mat
-  artifactKey: Guid(dc2ce313808c77e478ce2e4323a2524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/CloudsDark(Mobile).mat using Guid(dc2ce313808c77e478ce2e4323a2524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc6acb055c152328069c8b3feefec14') in 0.017124 seconds 
-  Import took 0.031145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Prefabs/mapa_mnemo.reEscalado.0.33.fbx
-  artifactKey: Guid(1cabc887bc8f442429e1bbaac6430df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/mapa_mnemo.reEscalado.0.33.fbx using Guid(1cabc887bc8f442429e1bbaac6430df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2cc55de9c5e7ddedd7fb2f52d7e202') in 0.545492 seconds 
-  Import took 0.556084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat
-  artifactKey: Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat using Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f563a4c62d5358a45942cc61f5fb904') in 0.026272 seconds 
-  Import took 0.046162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Cat/ball.mat
-  artifactKey: Guid(6e8bafa3494645a4087ad7608f0f72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cat/ball.mat using Guid(6e8bafa3494645a4087ad7608f0f72e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f764bab0343a0f753b8b6700ed0fb9') in 0.027348 seconds 
-  Import took 0.039252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Confetti3D.mat
-  artifactKey: Guid(9a0c3c685c6529c428b94ebad642a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Confetti3D.mat using Guid(9a0c3c685c6529c428b94ebad642a8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809c87b09998950e6781eb436f52ed3') in 0.025401 seconds 
-  Import took 0.039465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Cat/Materials/cat.mat
-  artifactKey: Guid(55ad2216fa554594ca6aaa2253e71753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cat/Materials/cat.mat using Guid(55ad2216fa554594ca6aaa2253e71753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c8fc84a91425aef37f04008610e7d') in 0.052875 seconds 
-  Import took 0.066783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti(Mobile).mat
-  artifactKey: Guid(325e833e73b5a804dadfd32f34970490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti(Mobile).mat using Guid(325e833e73b5a804dadfd32f34970490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ea0b33b53b1b4054473b87862e121e') in 0.037375 seconds 
-  Import took 0.051467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion01(Mobile).mat
-  artifactKey: Guid(98435b2e5ea68d64f9d91aa4be9d7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Explosion01(Mobile).mat using Guid(98435b2e5ea68d64f9d91aa4be9d7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919fa1a0b8ccd6d1c20b954731f53f7') in 0.025725 seconds 
-  Import took 0.038367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000868 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Clouds.mat
-  artifactKey: Guid(d3253df43e0fee14f89de91cbe04f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Clouds.mat using Guid(d3253df43e0fee14f89de91cbe04f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc85e4c9a6725582ddea66a0ad175a91') in 0.023812 seconds 
-  Import took 0.036502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Clouds(Mobile).mat
-  artifactKey: Guid(8013662bf2b2a4247a4bd2eaa323c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Clouds(Mobile).mat using Guid(8013662bf2b2a4247a4bd2eaa323c56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd6bd43212d425508e729cc033ff487') in 0.024754 seconds 
-  Import took 0.036963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/ToonFX/Materials/BubbleSoap.mat
-  artifactKey: Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/BubbleSoap.mat using Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8282825debc1a2e8a4deeff051dbf83') in 0.029536 seconds 
-  Import took 0.039483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000466 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti2x2(Mobile).mat
-  artifactKey: Guid(72ff1315421d23d4b9c089f014b5c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti2x2(Mobile).mat using Guid(72ff1315421d23d4b9c089f014b5c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878e7934231041ddf163a4708acff52f') in 0.019819 seconds 
-  Import took 0.036087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000845 seconds.
-  path: Assets/ToonFX/Materials/Recolorable/Bubble.mat
-  artifactKey: Guid(79bfcc36a862f4940be733f2ff6f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials/Recolorable/Bubble.mat using Guid(79bfcc36a862f4940be733f2ff6f9074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359b1f903507a640c7ed7d0c2798aa3') in 0.031652 seconds 
-  Import took 0.046335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000639 seconds.
-  path: Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti3D(Mobile).mat
-  artifactKey: Guid(d431d4839b9f90f4591328dc12dd6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonFX/Materials(Mobile)/Recolorable/Confetti3D(Mobile).mat using Guid(d431d4839b9f90f4591328dc12dd6a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81941c0eb19233313a5b738f3d7f589') in 0.027956 seconds 
-  Import took 0.041911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.430895 seconds.
   path: Assets/Ball.physicMaterial
   artifactKey: Guid(d69baeb73f7d2864b8dbe499f70c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ball.physicMaterial using Guid(d69baeb73f7d2864b8dbe499f70c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbd2cd98191db70abd80539ba4ec2eb') in 0.015136 seconds 
-  Import took 0.025309 seconds .
+Start importing Assets/Ball.physicMaterial using Guid(d69baeb73f7d2864b8dbe499f70c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762e15a01043062c0a8c8200b72bcc28') in 0.075054 seconds 
+  Import took 0.081728 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000497 seconds.
+  Time since last request: 0.000166 seconds.
   path: Assets/New Material.mat
   artifactKey: Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6acc2f9f397c99235be49813a066a8') in 0.024855 seconds 
-  Import took 0.040413 seconds .
+Start importing Assets/New Material.mat using Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28707bb2cf6fe2930b7314444464b07') in 0.317881 seconds 
+  Import took 0.324290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.312242 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e600de2e76f4985829699c024fdbb') in 0.003926 seconds 
+  Import took 0.013508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928177 seconds.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(61c0801b38c9bec4297253f77f3b50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Demo.unity using Guid(61c0801b38c9bec4297253f77f3b50bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd290181409b10134c383ab2c65f94813') in 0.003763 seconds 
+  Import took 0.011282 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
