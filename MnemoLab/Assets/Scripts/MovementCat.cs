@@ -8,6 +8,7 @@ public class MovementCat : MonoBehaviour
     public int direction = 0;
     public bool activeMovement = false;
    public float velocity = 5;
+    public Quaternion[] rotation;
 
     void Update()
     {
@@ -16,6 +17,7 @@ public class MovementCat : MonoBehaviour
             if (direction == 0)
             {
                 transform.Translate(Vector3.forward * Time.deltaTime * velocity, Space.World);
+                transform.rotation = rotation[0];
 
             }
             if (direction == 1)
@@ -31,10 +33,19 @@ public class MovementCat : MonoBehaviour
             if (direction == 3)
             {
                 transform.Translate(Vector3.back * Time.deltaTime * velocity, Space.World);
+                transform.rotation = rotation[1];
+
 
             }
         }
     }
+
+    public void rotateForward()
+    {
+        
+            transform.rotation = rotation[2];     
+    }
+
 
 
     private void OnTriggerEnter(Collider other)

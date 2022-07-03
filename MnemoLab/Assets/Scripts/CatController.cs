@@ -28,7 +28,12 @@ public class CatController : MonoBehaviour
             ChangePosition();
             if (isBlinky) //toma el scripot blinky
             {
-             //   GetComponent<Blinky>().ChangeBody(colisions);
+                GetComponent<Blinky>().ChangeBody(colisions);
+                print("blinkyscriupt");
+            }
+            if(isMnemo)
+            {
+                GetComponent<MovementCat>().rotateForward();
             }
         }
 
