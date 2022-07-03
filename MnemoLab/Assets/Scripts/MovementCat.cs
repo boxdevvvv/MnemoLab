@@ -8,6 +8,7 @@ public class MovementCat : MonoBehaviour
     public int direction = 0;
     public bool activeMovement = false;
    public float velocity = 5;
+    public Quaternion[] rotacion;
 
     void Update()
     {
@@ -16,7 +17,7 @@ public class MovementCat : MonoBehaviour
             if (direction == 0)
             {
                 transform.Translate(Vector3.forward * Time.deltaTime * velocity, Space.World);
-
+                transform.rotation = rotacion[0];
             }
             if (direction == 1)
             {
@@ -31,8 +32,25 @@ public class MovementCat : MonoBehaviour
             if (direction == 3)
             {
                 transform.Translate(Vector3.back * Time.deltaTime * velocity, Space.World);
-
+                transform.rotation = rotacion[1];
             }
+        }
+    }
+    private bool changeDirection;
+    public void ChangeDirection()
+    {
+        if(!changeDirection)
+        {
+            direction = 3;
+            transform.rotation = rotacion[1];
+            changeDirection = true;
+            return;
+        }
+        else
+        {
+            direction = 0;
+            transform.rotation = rotacion[0];
+            //changeDirection = true;
         }
     }
 
@@ -48,6 +66,8 @@ public class MovementCat : MonoBehaviour
         {
             activeMovement = true;
             direction = other.GetComponent<Stopeds>().numberDirection;
+            print("choco co stoped");
+
         }
 
         if (other.CompareTag("Player"))

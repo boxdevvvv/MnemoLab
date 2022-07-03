@@ -8,7 +8,6 @@ public class LightPoint : MonoBehaviour
     void Start()
     {
         GetComponent<Light>().DOIntensity(0, timeToDie);
-
     }
  
 }

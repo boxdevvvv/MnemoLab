@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Blinky : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject[] objects;
+    public GameObject actual;
+    public void ChangeBody(int _number)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        actual.SetActive(false);
+        objects[_number].SetActive(true);
+        actual = objects[_number];
     }
 }
