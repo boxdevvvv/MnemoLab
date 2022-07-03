@@ -19,25 +19,25 @@ public class TuboLight : MonoBehaviour
          //   luz.gameObject.SetActive(false);
              luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(5, 0.5f);
+            luz.DOIntensity(3, 0.5f);
             luz.gameObject.SetActive(true);
 
             yield return new WaitForSeconds(0.05f);
            // luz.gameObject.SetActive(false);
              luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(5, 0.5f);
+            luz.DOIntensity(3, 0.5f);
             luz.gameObject.SetActive(true);
             luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(5, 0.5f);
+            luz.DOIntensity(3, 0.5f);
             luz.gameObject.SetActive(true);
 
             yield return new WaitForSeconds(0.05f);
             //luz.gameObject.SetActive(false);
             luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(5, 0.5f);
+            luz.DOIntensity(3, 0.5f);
             luz.gameObject.SetActive(true);
 
             luz.DOIntensity(0, .5f);
@@ -46,7 +46,7 @@ public class TuboLight : MonoBehaviour
             yield return new WaitForSeconds(.2f);
             luz.gameObject.SetActive(true);
             //luz.intensity = 10;
-            luz.DOIntensity(3, 1);
+            luz.DOIntensity(1, 1);
             yield return new WaitForSeconds(3);
 
 
