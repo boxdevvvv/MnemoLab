@@ -16495,7 +16495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -21975,6 +21975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat_Mnemo_RUN
       objectReference: {fileID: 0}
+    - target: {fileID: 7068950612463142850, guid: a25814da14345da4198219754a5aad10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 419f495199aaecc4dbb66c9dee99cce8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a25814da14345da4198219754a5aad10, type: 3}
 --- !u!1 &4811171725226982099
@@ -22257,6 +22261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat_Clyde_SIT
       objectReference: {fileID: 0}
+    - target: {fileID: 5841108263972257452, guid: 7babf5d590995b94ea63f59e546cb8c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c635628e50191f74bb073cd84c71575d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7babf5d590995b94ea63f59e546cb8c8, type: 3}
 --- !u!23 &5113045958365092951
@@ -23352,6 +23360,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5511266729690276803, guid: 5769e18ff2a3147499e001fcdeb66e2d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c377d1abf3453043a383d4c2ea14ba2, type: 2}
     - target: {fileID: 6303649233666955046, guid: 5769e18ff2a3147499e001fcdeb66e2d, type: 3}
       propertyPath: m_Name
       value: Cat_Pinky_SIT

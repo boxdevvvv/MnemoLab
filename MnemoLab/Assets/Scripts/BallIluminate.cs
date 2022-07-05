@@ -6,9 +6,9 @@ public class BallIluminate : MonoBehaviour
 {
     public Light _light;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Wall"))
         {
             Instantiate(_light, transform.position, Quaternion.identity);
            Destroy(gameObject);
