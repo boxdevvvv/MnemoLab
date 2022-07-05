@@ -49,9 +49,10 @@ public class CatController : MonoBehaviour
             particulas[colisions].transform.parent = null;
             particulas[colisions].Play();
             Invoke("StopParticle", 1.9f);
+            GetComponent<AudioSource>().PlayOneShot(capturado);
             transform.position = ubication[colisions];
             transform.rotation = _rotation[colisions];
-            
+
             print("colisiones = " + colisions);
         }
         else
@@ -68,8 +69,16 @@ public class CatController : MonoBehaviour
     }
     //public ParticleSystem particleEffect;
     //SOLO PONER CUANDO ESTE INTEGRADO LAS PARTICULAS
+    public AudioClip capturado;
     public void ChageStatus()
     {
+        particulas[colisions].transform.parent = null;
+        particulas[colisions].Play();
+        GetComponent<AudioSource>().PlayOneShot(capturado);
+        GameManager._gameManager.catCatch++;
+        GameManager._gameManager.Win();
+        Invoke("StopParticle", 1.9f);
+
         gameObject.SetActive(false);
 
         Debug.LogWarning("Se desactiovo");
@@ -77,6 +86,23 @@ public class CatController : MonoBehaviour
     }
     #endregion
 
+    #region sonidos
+    public AudioClip[] catSounds;
+    public float tiempoSounds;
+    private void Start()
+    {
+        Invoke("SoundEffect", tiempoSounds);
+    }
+
+
+    public void SoundEffect()
+    {
+       GetComponent<AudioSource>().PlayOneShot(catSounds[Random.Range(0,3)]);
+        Invoke("SoundEffect", tiempoSounds);
+
+    }
+
+    #endregion
     private void Update()
     {
         if (Input.GetKeyDown("r"))

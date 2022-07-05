@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
         _gameManager = this;
     }
    public void Win()
-    {
-        if(catCatch >=4)
+   {
+        if(catCatch >=5)
         {
             SceneManager.LoadScene(2);
         }

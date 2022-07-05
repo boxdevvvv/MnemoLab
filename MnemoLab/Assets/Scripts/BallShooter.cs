@@ -10,22 +10,20 @@ public class BallShooter : MonoBehaviour
 
     [SerializeField] private float launchForce = 2;
 
-    // Start is called before the first frame update
-    void Start()
+    public AudioClip shot;
+    public GameObject particle;
+    public void Update()
     {
-        
+        if(Input.GetKeyDown("z"))
+        {
+            Shoot();
+        }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Shoot()
     {
         GameObject ball = Instantiate(bullet, firePoint.position, firePoint.rotation);
-
         ball.GetComponent<Rigidbody>().velocity = firePoint.forward * launchForce;
+        Instantiate(particle, firePoint.position, firePoint.rotation);
+        GetComponent<AudioSource>().PlayOneShot(shot);
     }
 }

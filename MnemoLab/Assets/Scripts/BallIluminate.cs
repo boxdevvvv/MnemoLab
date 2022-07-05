@@ -11,7 +11,8 @@ public class BallIluminate : MonoBehaviour
         if (other.CompareTag("Wall"))
         {
             Instantiate(_light, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+           Destroy(gameObject);
+
         }
     }
 }
