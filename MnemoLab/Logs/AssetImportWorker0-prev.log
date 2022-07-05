@@ -15,12 +15,12 @@ E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63327
+61921
 Successfully changed project path to: E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
 E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.50 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.54 ms.
+Refreshing native plugins compatible for Editor in 120.57 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.65 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/UnityProjects/MnemoLabDefinitiva/MnemoLab/MnemoLab/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004447 seconds.
+Registered in 0.004484 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.74 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 96.23 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.777 seconds
+- Completed reload, in  2.088 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1777ms)
+	ReloadAssembly (2088ms)
 		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (605ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (992ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (261ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (21ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (20ms)
 				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018929 seconds.
+Registered in 0.017489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.94 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 92.88 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,30 +98,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.833 seconds
+- Completed reload, in  1.804 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1835ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (1805ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1552ms)
-			LoadAssemblies (180ms)
+		EndReloadAssembly (1513ms)
+			LoadAssemblies (182ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
+			SetupTypeCache (456ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (658ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (637ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (345ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -129,14 +129,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3849 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.2 MB.
-System memory in use after: 185.5 MB.
+Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.2 MB.
+System memory in use after: 190.4 MB.
 
-Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4299.
-Total: 4.433900 ms (FindLiveObjects: 0.351100 ms CreateObjectMapping: 0.187900 ms MarkObjects: 3.853200 ms  DeleteObjects: 0.040400 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 4347.
+Total: 4.243500 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.186100 ms MarkObjects: 3.670100 ms  DeleteObjects: 0.043300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,296 +151,649 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4859f0b13bc18077b922a678ab8414ae') in 0.107088 seconds 
-  Import took 0.114298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c20983de1095c7aaab66d0816bd5f') in 0.042239 seconds 
-  Import took 0.050720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001842 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c20983de1095c7aaab66d0816bd5f') in 0.027007 seconds 
-  Import took 0.034468 seconds .
-
-========================================================================
-Received Prepare
-Switching render pipeline 00000000000000000000000000000000 -> 82c7161248d740a4cabab6feffddf25f
-Refreshing native plugins compatible for Editor in 21.60 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 80 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 108.8 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4347.
-Total: 9.136700 ms (FindLiveObjects: 0.652900 ms CreateObjectMapping: 0.500100 ms MarkObjects: 7.947800 ms  DeleteObjects: 0.034400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 86.375675 seconds.
-  path: Assets/Ball.physicMaterial
-  artifactKey: Guid(d69baeb73f7d2864b8dbe499f70c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ball.physicMaterial using Guid(d69baeb73f7d2864b8dbe499f70c9d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a769be546b3646d0390eb8f21981e66f') in 0.027641 seconds 
-  Import took 0.034918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8554568aadb11936069c784cb7c1235') in 0.004521 seconds 
-  Import took 0.011600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(82c7161248d740a4cabab6feffddf25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8889c4e4fd6443683e099ba8ab30d42b') in 0.005146 seconds 
-  Import took 0.012394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.892046 seconds.
-  path: Assets/Materials/Manos.mat
-  artifactKey: Guid(b0419bb345e29d249a4cb6117255cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Manos.mat using Guid(b0419bb345e29d249a4cb6117255cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8c20c31df791d42945f1ad599807a5') in 0.341327 seconds 
-  Import took 0.348693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Materials/Red 1.mat
-  artifactKey: Guid(15fbeb284ec686e47b428fd939112b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red 1.mat using Guid(15fbeb284ec686e47b428fd939112b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece513befafcfe7d9a3f05c9c6935d1d') in 0.013804 seconds 
-  Import took 0.022339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003576 seconds.
-  path: Assets/Materials/Red 1.mat
-  artifactKey: Guid(15fbeb284ec686e47b428fd939112b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red 1.mat using Guid(15fbeb284ec686e47b428fd939112b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece513befafcfe7d9a3f05c9c6935d1d') in 0.014731 seconds 
-  Import took 0.022850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.572524 seconds.
-  path: Assets/Materials/Door_Mat.mat
-  artifactKey: Guid(5310b382bcfbbab49ae794f1ae8c5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Door_Mat.mat using Guid(5310b382bcfbbab49ae794f1ae8c5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b9e86ab4b94f9636ff8e890612a989') in 0.012070 seconds 
-  Import took 0.019015 seconds .
+  path: Assets/Models/MetalTable.png
+  artifactKey: Guid(07e98ed25a227724d994868883f6e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MetalTable.png using Guid(07e98ed25a227724d994868883f6e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd9e52b02b8f8b76c6b846c9d0dbb92') in 0.075115 seconds 
+  Import took 0.081886 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000194 seconds.
-  path: Assets/Materials/red.mat
-  artifactKey: Guid(a5c226c7b923a8c4594ff0fd8f880ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/red.mat using Guid(a5c226c7b923a8c4594ff0fd8f880ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a849ed3bcd152d083aa1af88e442ca54') in 0.010803 seconds 
-  Import took 0.019677 seconds .
+  path: Assets/Models/MetalTable.mat
+  artifactKey: Guid(72e4018f185cc3d4f99685f30a7ba26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MetalTable.mat using Guid(72e4018f185cc3d4f99685f30a7ba26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7874f4a2282e3ec3d33c8fe29956a336') in 0.232835 seconds 
+  Import took 0.240944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Models/mapa.mnemo.fbx
+  artifactKey: Guid(08a6f786f1a42894b9c1751ab76d36dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mapa.mnemo.fbx using Guid(08a6f786f1a42894b9c1751ab76d36dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da18d4b9d26e3e815254703a6773a2b') in 0.241168 seconds 
+  Import took 0.247751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/MetalTable.obj
+  artifactKey: Guid(6154b6a85da27fa41b44ac3421d05d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MetalTable.obj using Guid(6154b6a85da27fa41b44ac3421d05d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf355b7f2bfc51cc5d38704bd9fc82f') in 0.054774 seconds 
+  Import took 0.065713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006884 seconds.
+  path: Assets/Models/MetalTable.obj
+  artifactKey: Guid(6154b6a85da27fa41b44ac3421d05d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MetalTable.obj using Guid(6154b6a85da27fa41b44ac3421d05d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf355b7f2bfc51cc5d38704bd9fc82f') in 0.030617 seconds 
+  Import took 0.057135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.316068 seconds.
+  path: Assets/Models/OBJs Rafael
+  artifactKey: Guid(bb64bf4a25200b74eb36949d0fb3c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael using Guid(bb64bf4a25200b74eb36949d0fb3c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5e3367f48269b1eccc58eeec6175b3') in 0.004102 seconds 
+  Import took 0.015511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.035249 seconds.
+  path: Assets/Models/OBJs Rafael/Walls
+  artifactKey: Guid(cf04fb9e3069c994abdab64b7b942848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls using Guid(cf04fb9e3069c994abdab64b7b942848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c8d026b72da2aeff38e1fe685b2777') in 0.008395 seconds 
+  Import took 0.018665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029987 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 1.obj
+  artifactKey: Guid(9be6c2b4e4d49e94bb5f535f45659836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 1.obj using Guid(9be6c2b4e4d49e94bb5f535f45659836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37abecb4b5317a84f95eec53a6ac60d0') in 0.027524 seconds 
+  Import took 0.041124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 2.obj
+  artifactKey: Guid(22933578941decb4a8ca5049f4618b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 2.obj using Guid(22933578941decb4a8ca5049f4618b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81ae33d58fd35b1158cc19822dddb60') in 0.047766 seconds 
+  Import took 0.054987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall1.png
+  artifactKey: Guid(14075e91bfcfb9649819d94aaf2ace9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall1.png using Guid(14075e91bfcfb9649819d94aaf2ace9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba60fab4eebe781234c59b23f3f7089') in 0.017523 seconds 
+  Import took 0.027973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 5.obj
+  artifactKey: Guid(cafab1d2269d5ee499a9ce38c35d1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 5.obj using Guid(cafab1d2269d5ee499a9ce38c35d1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9653187fafade376da54ce79e75a3') in 0.040879 seconds 
+  Import took 0.047932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall6.png
+  artifactKey: Guid(ac850a438a391ed4099a6b57d5442103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall6.png using Guid(ac850a438a391ed4099a6b57d5442103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dbf4cf50f9eb9ed711321a095802ac') in 0.044046 seconds 
+  Import took 0.050532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall5.png
+  artifactKey: Guid(7f7f67d843941d641b975b5b101b3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall5.png using Guid(7f7f67d843941d641b975b5b101b3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4286789195bfcd987a4d10d48d8ea71c') in 0.019343 seconds 
+  Import took 0.028684 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000184 seconds.
-  path: Assets/Materials/penelopeTorres.mat
-  artifactKey: Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/penelopeTorres.mat using Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b179610ec0517c260d20bde74534969') in 0.013470 seconds 
-  Import took 0.020995 seconds .
+  path: Assets/Models/OBJs Rafael/Walls/Wall3.png
+  artifactKey: Guid(6491b48a8bdbabc498ed92779771ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall3.png using Guid(6491b48a8bdbabc498ed92779771ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b06a5bc3dbae49cc8d79b93e784a66') in 0.024747 seconds 
+  Import took 0.034036 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Materials/Weapon.mat
-  artifactKey: Guid(c798756d75c0c5e42bd61e997ebbccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Weapon.mat using Guid(c798756d75c0c5e42bd61e997ebbccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fced5f7340d1dad14cf012d6933195c') in 0.015145 seconds 
-  Import took 0.023893 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 4.obj
+  artifactKey: Guid(86e00b0087e65cf49820b2e6db820525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 4.obj using Guid(86e00b0087e65cf49820b2e6db820525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e98c808595f44f5825cc2bfbaad1ca1') in 0.037506 seconds 
+  Import took 0.045831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall2.png
+  artifactKey: Guid(502e576a8acc08345b5618ada2220c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall2.png using Guid(502e576a8acc08345b5618ada2220c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef16ff1e237bbcb2ace503c51b30b9b') in 0.017163 seconds 
+  Import took 0.025141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 6.obj
+  artifactKey: Guid(e5b49c43e0c33b7499299cff44ae4432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 6.obj using Guid(e5b49c43e0c33b7499299cff44ae4432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1434162d14d57394898169b9f8aa6d') in 0.031873 seconds 
+  Import took 0.047947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall4.png
+  artifactKey: Guid(f32be5bdeb88d3b448b4bd0bcbeb9644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall4.png using Guid(f32be5bdeb88d3b448b4bd0bcbeb9644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063453e649cc7947aa0d9255d2cd2590') in 0.012537 seconds 
+  Import took 0.021582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Wall 3.obj
+  artifactKey: Guid(1a5cf3759b0331f4bb35fd5fdc42965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Wall 3.obj using Guid(1a5cf3759b0331f4bb35fd5fdc42965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf512d11bfc3e9bcd2357ada83a8819') in 0.029566 seconds 
+  Import took 0.038951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.435904 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials
+  artifactKey: Guid(f8e6ccfafa993f240a068fe1e661e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials using Guid(f8e6ccfafa993f240a068fe1e661e6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1a5be5147a1c5f703e196abb809da6') in 0.003744 seconds 
+  Import took 0.013298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.287300 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall1_Mat.mat
+  artifactKey: Guid(45200f22c9362214b84d9331dbdb2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall1_Mat.mat using Guid(45200f22c9362214b84d9331dbdb2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da097919748ebe69f7fe8f730d56597') in 0.016558 seconds 
+  Import took 0.028719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.501955 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall1_Mat.mat
+  artifactKey: Guid(45200f22c9362214b84d9331dbdb2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall1_Mat.mat using Guid(45200f22c9362214b84d9331dbdb2886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a062cad75705c2ea626618a93dab35c2') in 0.016047 seconds 
+  Import took 0.028635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.009735 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall2_Mat.mat
+  artifactKey: Guid(f5fee96c35d384640a35194e86ee6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall2_Mat.mat using Guid(f5fee96c35d384640a35194e86ee6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c32ac71701d71d99be3a906ef99030') in 0.015823 seconds 
+  Import took 0.024070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.843971 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall2_Mat.mat
+  artifactKey: Guid(f5fee96c35d384640a35194e86ee6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall2_Mat.mat using Guid(f5fee96c35d384640a35194e86ee6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8405968c14682973f188f217206ad9') in 0.014301 seconds 
+  Import took 0.022027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.916144 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall3_Mat.mat
+  artifactKey: Guid(a150e51229e8fd94f81e1e118c233969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall3_Mat.mat using Guid(a150e51229e8fd94f81e1e118c233969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e040f6e6f305fe67aa27e626027979') in 0.013352 seconds 
+  Import took 0.020771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.776832 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall4_Mat.mat
+  artifactKey: Guid(00dab0679b19c154e87b5ec455fbe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall4_Mat.mat using Guid(00dab0679b19c154e87b5ec455fbe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d6afbdbbf1026e3ae73a18da25c41f') in 0.013780 seconds 
+  Import took 0.021124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.096763 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall5_Mat.mat
+  artifactKey: Guid(2240704c4802dd54ba0e29b8b5e90472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall5_Mat.mat using Guid(2240704c4802dd54ba0e29b8b5e90472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67156332420ad47fbae82dd3132c823d') in 0.013678 seconds 
+  Import took 0.022211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.516685 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall6_Mat.mat
+  artifactKey: Guid(9b2ac99f9bad8954cb47a8983048376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall6_Mat.mat using Guid(9b2ac99f9bad8954cb47a8983048376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3f260d937f922c17b75e6e78683b75') in 0.016716 seconds 
+  Import took 0.026719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.741829 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall3_Mat.mat
+  artifactKey: Guid(a150e51229e8fd94f81e1e118c233969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall3_Mat.mat using Guid(a150e51229e8fd94f81e1e118c233969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f9f1b6ccd0911a5a146907caa57e0f') in 0.028411 seconds 
+  Import took 0.042700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall6_Mat.mat
+  artifactKey: Guid(9b2ac99f9bad8954cb47a8983048376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall6_Mat.mat using Guid(9b2ac99f9bad8954cb47a8983048376f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b310330d37294f2e15938b7a9c68515c') in 0.021504 seconds 
+  Import took 0.032781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall5_Mat.mat
+  artifactKey: Guid(2240704c4802dd54ba0e29b8b5e90472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall5_Mat.mat using Guid(2240704c4802dd54ba0e29b8b5e90472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d91fc705815af9705ea816b4977a3b') in 0.023625 seconds 
+  Import took 0.036811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/OBJs Rafael/Walls/Materials/Wall4_Mat.mat
+  artifactKey: Guid(00dab0679b19c154e87b5ec455fbe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Walls/Materials/Wall4_Mat.mat using Guid(00dab0679b19c154e87b5ec455fbe0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eb927dc7e947dcd541ff43eb3e9169') in 0.023722 seconds 
+  Import took 0.035945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.905340 seconds.
+  path: Assets/Models/OBJs Rafael/Floors
+  artifactKey: Guid(443bab583cb8bbd42bc3970ef886aded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors using Guid(443bab583cb8bbd42bc3970ef886aded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4fa7ca47a0f1e60c09d1983ff715d1') in 0.005036 seconds 
+  Import took 0.015864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044596 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor 1.obj
+  artifactKey: Guid(1922b059236ec094c825366de68072ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor 1.obj using Guid(1922b059236ec094c825366de68072ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7e95c5097ad1825569a808de59972') in 0.028633 seconds 
+  Import took 0.035622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor 4.obj
+  artifactKey: Guid(74fc029d7ceeb3f4784aed673c30055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor 4.obj using Guid(74fc029d7ceeb3f4784aed673c30055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fe3d4a2319e3bedf5ff81ee52ea715') in 0.032936 seconds 
+  Import took 0.041738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor 5.obj
+  artifactKey: Guid(0cd132ea53b1b0040a151603f24e5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor 5.obj using Guid(0cd132ea53b1b0040a151603f24e5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a200f0f8e818c588ef92916fbabd063c') in 0.029261 seconds 
+  Import took 0.037008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor3.png
+  artifactKey: Guid(5a8d22a871ed4ea4e91b41a16e23061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor3.png using Guid(5a8d22a871ed4ea4e91b41a16e23061f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc72d971158318c29861893a63793e32') in 0.015818 seconds 
+  Import took 0.022974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor.png
+  artifactKey: Guid(5d4d9bdbc5afe3d4c922d6afb4cf12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor.png using Guid(5d4d9bdbc5afe3d4c922d6afb4cf12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63af8627436a1121da0d6d02eb481f9e') in 0.013033 seconds 
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor 2.obj
+  artifactKey: Guid(f0aa25a4c069b4e4c8423bf2391bef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor 2.obj using Guid(f0aa25a4c069b4e4c8423bf2391bef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59acef20af6ed08367881444813cba9c') in 0.037794 seconds 
+  Import took 0.045098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor.png
+  artifactKey: Guid(5d4d9bdbc5afe3d4c922d6afb4cf12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor.png using Guid(5d4d9bdbc5afe3d4c922d6afb4cf12a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63af8627436a1121da0d6d02eb481f9e') in 0.012694 seconds 
+  Import took 0.019605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor4.png
+  artifactKey: Guid(475f03be655920a4c966baa19dc2d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor4.png using Guid(475f03be655920a4c966baa19dc2d4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75696955239a21c7084c9dca05102195') in 0.015343 seconds 
+  Import took 0.022802 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000180 seconds.
-  path: Assets/Materials/penelopeTorres 1.mat
-  artifactKey: Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/penelopeTorres 1.mat using Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6109a4ec633397e49522ca776f1678b1') in 0.012185 seconds 
-  Import took 0.019714 seconds .
+  path: Assets/Models/OBJs Rafael/Floors/Floor5.png
+  artifactKey: Guid(5f7ba916c9541eb47a5bfa94b8175c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor5.png using Guid(5f7ba916c9541eb47a5bfa94b8175c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e3181e3d057eceaf9fe227dc467390') in 0.013805 seconds 
+  Import took 0.022586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Materials/StandartMAT.mat
-  artifactKey: Guid(57db2711acfefbc40a4cf62b584857f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/StandartMAT.mat using Guid(57db2711acfefbc40a4cf62b584857f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6986bd6e84324c5fcc3a68b0dc0ff0af') in 0.013149 seconds 
-  Import took 0.021928 seconds .
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor2.png
+  artifactKey: Guid(61bc2e7e1bc277b4592d75a1c855e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor2.png using Guid(61bc2e7e1bc277b4592d75a1c855e62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cd0cb59b60f7ed5ff2c1d21d5efa10') in 0.019454 seconds 
+  Import took 0.026711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 165.788006 seconds.
-  path: Assets/Materials/Door_Mat.mat
-  artifactKey: Guid(5310b382bcfbbab49ae794f1ae8c5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Door_Mat.mat using Guid(5310b382bcfbbab49ae794f1ae8c5e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cc4af1bef9ae784db4e60f2817b794') in 0.013544 seconds 
-  Import took 0.023397 seconds .
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Floor 3.obj
+  artifactKey: Guid(968e04b47b290794a8d212edb327be9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Floor 3.obj using Guid(968e04b47b290794a8d212edb327be9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e12fbb82ee15e067b2dfd9f5d08377') in 0.030416 seconds 
+  Import took 0.037432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Materials/red.mat
-  artifactKey: Guid(a5c226c7b923a8c4594ff0fd8f880ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/red.mat using Guid(a5c226c7b923a8c4594ff0fd8f880ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd2a0167a3af4f8cb9ed9bda6a3ed98') in 0.011704 seconds 
-  Import took 0.018627 seconds .
+  Time since last request: 39.081922 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials
+  artifactKey: Guid(164251b595ac02e499c5643a585e9fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials using Guid(164251b595ac02e499c5643a585e9fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577c955c09c631de934d18b8b6882c7a') in 0.004120 seconds 
+  Import took 0.011892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Materials/penelopeTorres.mat
-  artifactKey: Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/penelopeTorres.mat using Guid(638a6c6366bb83d49a35892811cee3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd368802384322d3857ec96e82d2b015f') in 0.011604 seconds 
-  Import took 0.019440 seconds .
+  Time since last request: 9.129373 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/New Material.mat
+  artifactKey: Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/New Material.mat using Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2346a0a845adb2d1e2695483a9cdf33d') in 0.015068 seconds 
+  Import took 0.022677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Materials/Weapon.mat
-  artifactKey: Guid(c798756d75c0c5e42bd61e997ebbccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Weapon.mat using Guid(c798756d75c0c5e42bd61e997ebbccaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85359ca49e162b6e84cd61d1555fb07') in 0.012296 seconds 
-  Import took 0.020067 seconds .
+  Time since last request: 5.012428 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor1_Mat.mat
+  artifactKey: Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor1_Mat.mat using Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b832ed4354262908d1cb5c4b5dca93cf') in 0.015078 seconds 
+  Import took 0.023086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Materials/penelopeTorres 1.mat
-  artifactKey: Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/penelopeTorres 1.mat using Guid(427151acb1129864bac00df598055d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e814c9d6780b6c67363d25ba8d72ce') in 0.011331 seconds 
-  Import took 0.022687 seconds .
+  Time since last request: 15.759894 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor1_Mat.mat
+  artifactKey: Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor1_Mat.mat using Guid(6f72ba390345a0d45a287e4fc2fd4a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97261a5ba554510f45505ec645174922') in 0.016044 seconds 
+  Import took 0.024097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 392.697708 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(b627ed5f00199d2459aff49414602f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ff673e1c99f3a2d6fd6d39f9a3f81f') in 0.012915 seconds 
-  Import took 0.021659 seconds .
+  Time since last request: 4.172473 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor2_Mat.mat
+  artifactKey: Guid(eac6038da85ba2849ad047f3a6b702dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor2_Mat.mat using Guid(eac6038da85ba2849ad047f3a6b702dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7285c6103c6f6b9dd285046402791f8') in 0.014441 seconds 
+  Import took 0.021285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(5c0e8bd124dfe8946a957c3325f6e71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b564faf08d412d1503d02f4b99203ebc') in 0.005603 seconds 
-  Import took 0.013738 seconds .
+  Time since last request: 6.329055 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor3_Mat.mat
+  artifactKey: Guid(f6e428c7225e3f143b92a7e6dabaaf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor3_Mat.mat using Guid(f6e428c7225e3f143b92a7e6dabaaf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dae4e0dd066ba754a909d86d38856bf') in 0.014527 seconds 
+  Import took 0.021738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.085065 seconds.
-  path: Assets/Materials/LightsMat
-  artifactKey: Guid(a2c8600574a4712408a9bc2e82e4d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LightsMat using Guid(a2c8600574a4712408a9bc2e82e4d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0685b03fdd0f8c0ad11a27396899b5e2') in 0.003858 seconds 
-  Import took 0.013520 seconds .
+  Time since last request: 4.526451 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor4_Mat.mat
+  artifactKey: Guid(19f840279dbfd584c8deb4ee3d664e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor4_Mat.mat using Guid(19f840279dbfd584c8deb4ee3d664e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729cdae1d245cc8ca8d46e9938ee5d60') in 0.018056 seconds 
+  Import took 0.026075 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.907777 seconds.
-  path: Assets/Materials/LightsMat/Light_White.mat
-  artifactKey: Guid(754572a6816bc8542a3093f292f7d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LightsMat/Light_White.mat using Guid(754572a6816bc8542a3093f292f7d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc092056da9527ad0199de386cfc573') in 0.014018 seconds 
-  Import took 0.021094 seconds .
+  Time since last request: 6.121338 seconds.
+  path: Assets/Models/OBJs Rafael/Floors/Materials/Floor5_Mat.mat
+  artifactKey: Guid(006dbc2fc602b904cbd5e0b86d684e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Floors/Materials/Floor5_Mat.mat using Guid(006dbc2fc602b904cbd5e0b86d684e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a718a42a9fa78d63a596c5118f70f1') in 0.020166 seconds 
+  Import took 0.027633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 450.058758 seconds.
-  path: Assets/Materials/LightsMat/Light_White.mat
-  artifactKey: Guid(754572a6816bc8542a3093f292f7d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LightsMat/Light_White.mat using Guid(754572a6816bc8542a3093f292f7d515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633e4036d667a14402e678160c622cf7') in 0.034068 seconds 
-  Import took 0.053509 seconds .
+  Time since last request: 133.522167 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse
+  artifactKey: Guid(41829533d7f7ab34ea080dd2b2b198ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse using Guid(41829533d7f7ab34ea080dd2b2b198ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd0d6c37bb563a6aa3806736b1c7c92') in 0.003770 seconds 
+  Import took 0.013613 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016002 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <5b200cfe90404dabaf74ba5f97ee2d12>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <5b200cfe90404dabaf74ba5f97ee2d12>:0 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 0.040234 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj
+  artifactKey: Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj using Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d94e76456e8adab5e60565676be1fbc') in 0.032125 seconds 
+  Import took 0.039115 seconds .
 
-Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1718ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1442ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (439ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (586ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (385ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3751 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.2 MB.
-System memory in use after: 186.5 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/MouseAndKeyboard.png
+  artifactKey: Guid(b72639e2b08332247987514a883b5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/MouseAndKeyboard.png using Guid(b72639e2b08332247987514a883b5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79472b150ab54dcf4e6744b1d206d368') in 0.015822 seconds 
+  Import took 0.023622 seconds .
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4430.
-Total: 5.559400 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.433200 ms MarkObjects: 4.539800 ms  DeleteObjects: 0.095300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj
+  artifactKey: Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj using Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185965177dcd045e60b2d814822269f') in 0.034081 seconds 
+  Import took 0.043354 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.675790 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials
+  artifactKey: Guid(fb4c094ca1f791b4ea47198fc46911e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials using Guid(fb4c094ca1f791b4ea47198fc46911e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f63683ac5857eab781d2f4fb1a4701c') in 0.003261 seconds 
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.586976 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials/Keyboard_Mat.mat
+  artifactKey: Guid(23ac34224499de6488464ec6180a7e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials/Keyboard_Mat.mat using Guid(23ac34224499de6488464ec6180a7e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd72b0230b92581048057f628b0708') in 0.013531 seconds 
+  Import took 0.021294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.509869 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials/Mouse_Mat.mat
+  artifactKey: Guid(621fc32e723becb4a83dfec03ac11a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Materials/Mouse_Mat.mat using Guid(621fc32e723becb4a83dfec03ac11a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8883a30d871fa31dd5a2e65e322976d4') in 0.012563 seconds 
+  Import took 0.020820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.692913 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj
+  artifactKey: Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj using Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00250679817866939628a21ee3795772') in 0.039582 seconds 
+  Import took 0.050214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj
+  artifactKey: Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj using Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f25b21ee6a0258026da5cda1579500') in 0.036566 seconds 
+  Import took 0.044126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj
+  artifactKey: Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Keyboard.obj using Guid(cef9712f9d9c21a41be2a06c5d8fe022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00250679817866939628a21ee3795772') in 0.035702 seconds 
+  Import took 0.043069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj
+  artifactKey: Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/Keyboard_and_Mouse/Mouse.obj using Guid(196e4f85f7a3b884a92cd10fa2bec1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f25b21ee6a0258026da5cda1579500') in 0.034958 seconds 
+  Import took 0.041828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.899861 seconds.
+  path: Assets/Models/OBJs Rafael/MesonRecLargo
+  artifactKey: Guid(a22ee21ffeee8f947a71d69c84ddd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MesonRecLargo using Guid(a22ee21ffeee8f947a71d69c84ddd440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a604d5591ea1c749b09cb3e7ee4060') in 0.005746 seconds 
+  Import took 0.015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.400318 seconds.
+  path: Assets/Models/OBJs Rafael/MesonRecLargo/MesonRecLargo.obj
+  artifactKey: Guid(cd6dec56a60cadc489f1246a79914987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MesonRecLargo/MesonRecLargo.obj using Guid(cd6dec56a60cadc489f1246a79914987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c8924af1799c9142efc13464230489') in 0.030808 seconds 
+  Import took 0.037740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/OBJs Rafael/MesonRecLargo/MesonRecLargo.png
+  artifactKey: Guid(7e94e6d052052a04aa77a299d67aa0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MesonRecLargo/MesonRecLargo.png using Guid(7e94e6d052052a04aa77a299d67aa0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a9ff287e38b70b7f5f49519abb23f9') in 0.012514 seconds 
+  Import took 0.019755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.812208 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables
+  artifactKey: Guid(642dbd23138e4f04aaf4003a1374c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables using Guid(642dbd23138e4f04aaf4003a1374c502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517db79d47bf5ccaa94e20cc6566d189') in 0.004861 seconds 
+  Import took 0.012783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035358 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables/MetalTable.obj
+  artifactKey: Guid(79fd0320a2aef02489fdfe3cf3b32142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables/MetalTable.obj using Guid(79fd0320a2aef02489fdfe3cf3b32142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162eb65259693d524af8aba67abf2bc5') in 0.028900 seconds 
+  Import took 0.036168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables/MetalTable.png
+  artifactKey: Guid(ded3f76aec6d0a542a16e1a543cd768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables/MetalTable.png using Guid(ded3f76aec6d0a542a16e1a543cd768e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ef7e9ae03126f83226f3dd1984ccdd') in 0.012606 seconds 
+  Import took 0.019648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables/MetalTableSmall.obj
+  artifactKey: Guid(77a7c6d7ed16f26419b433f84b039ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables/MetalTableSmall.obj using Guid(77a7c6d7ed16f26419b433f84b039ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ca08e6b090c1bda84fd07d81b06766') in 0.034184 seconds 
+  Import took 0.041022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.766723 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables/Materials
+  artifactKey: Guid(2012426d83646c045af45ab7cc53684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables/Materials using Guid(2012426d83646c045af45ab7cc53684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e927ee8da0125077f8d8998f1a5b073') in 0.003230 seconds 
+  Import took 0.011666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.188980 seconds.
+  path: Assets/Models/OBJs Rafael/MetalTables/Materials/Table_Mat.mat
+  artifactKey: Guid(6b764ba6120d03c4ea905687374296eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/MetalTables/Materials/Table_Mat.mat using Guid(6b764ba6120d03c4ea905687374296eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd77a6b5d9672aecd3f9660259b9167d') in 0.018738 seconds 
+  Import took 0.026552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.360214 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfLarge
+  artifactKey: Guid(f4255ab0aebe06d42b411a9e1da9a8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfLarge using Guid(f4255ab0aebe06d42b411a9e1da9a8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9384870fae9430386ea31865a805a1ef') in 0.003699 seconds 
+  Import took 0.014240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053212 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfLarge/ShelfLarge.obj
+  artifactKey: Guid(eee3f49241ff9934fae9ac116f1f2446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfLarge/ShelfLarge.obj using Guid(eee3f49241ff9934fae9ac116f1f2446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7049b1fc31cb7a016345e61646e76959') in 0.032191 seconds 
+  Import took 0.039183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfLarge/ShelfLarge.png
+  artifactKey: Guid(23d47673791ade24e80f72f1cd10f18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfLarge/ShelfLarge.png using Guid(23d47673791ade24e80f72f1cd10f18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a9615a6255a44707cec51cb9720d5') in 0.013338 seconds 
+  Import took 0.020076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.568509 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfMedium
+  artifactKey: Guid(8c7e99a021c931b44b4eba509c3d0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfMedium using Guid(8c7e99a021c931b44b4eba509c3d0c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760e4c89eb588c9623b6a0a3a6297497') in 0.003738 seconds 
+  Import took 0.012457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045213 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfMedium/ShelfMedium.obj
+  artifactKey: Guid(6102e6b278212a74d9293e9c80735c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfMedium/ShelfMedium.obj using Guid(6102e6b278212a74d9293e9c80735c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031e879614f10761ad924c36ae37b8de') in 0.030328 seconds 
+  Import took 0.037203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfMedium/ShelfMedium.png
+  artifactKey: Guid(27c7bf2ea97e51e45aedc0a293f51362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfMedium/ShelfMedium.png using Guid(27c7bf2ea97e51e45aedc0a293f51362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0f149f371a8fb67f3e640267c6b967') in 0.012510 seconds 
+  Import took 0.020594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.134756 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfSmall
+  artifactKey: Guid(349c0637cd36a374d8c5161e96c41f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfSmall using Guid(349c0637cd36a374d8c5161e96c41f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88564a80172e93b7238f737aa761a7a') in 0.004150 seconds 
+  Import took 0.016571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040998 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfSmall/ShelfSmall.obj
+  artifactKey: Guid(07fb8ac199941ef4eb369d60f5ae1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfSmall/ShelfSmall.obj using Guid(07fb8ac199941ef4eb369d60f5ae1821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a38b0b180a69ad6b7f9d91a23f8a654') in 0.029127 seconds 
+  Import took 0.036354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Models/OBJs Rafael/ShelfSmall/ShelfSmall.png
+  artifactKey: Guid(7a13915dbf3ad4a4fa58f55a3ce8c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/OBJs Rafael/ShelfSmall/ShelfSmall.png using Guid(7a13915dbf3ad4a4fa58f55a3ce8c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3912107f7b8023fdeb4747fbfe70dcb3') in 0.021832 seconds 
+  Import took 0.028689 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

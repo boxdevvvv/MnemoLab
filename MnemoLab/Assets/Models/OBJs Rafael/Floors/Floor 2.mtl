@@ -1,0 +1,13 @@
+# Blender 3.1.0 MTL File: 'Walls and floor.blend'
+# www.blender.org
+
+newmtl Floor_2
+Ns 40.315590
+Ka 0.259843 0.259843 0.259843
+Kd 0.800000 0.800000 0.800000
+Ks 0.460630 0.460630 0.460630
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  Floor2.png
