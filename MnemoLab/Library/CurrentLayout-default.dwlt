@@ -452,21 +452,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eaf5ffffeaf6fffffaf6ffff04f7ffff0ef7ffff68f7ffffbcf7fffff2f8fffffcf8fffffef9ffff08faffff86faffff90faffffb4faffff4afbffff70520000fa540000a2550000c6550000ea560000e0570000
+      m_ExpandedIDs: 4afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Electronics
-        m_OriginalName: Electronics
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 21958
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -46.721844, y: 10.388959, z: 1.0175387}
+    m_Target: {x: -33.418716, y: 3.2051542, z: -3.8470795}
     speed: 2
-    m_Value: {x: -46.721844, y: 10.388959, z: 1.0175387}
+    m_Value: {x: -33.418716, y: 3.2051542, z: -3.8470795}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -561,9 +561,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0992245, y: 0.8750043, z: -0.20116296, w: 0.42929813}
+    m_Target: {x: 0.006882092, y: 0.9178272, z: -0.014675276, w: 0.3969716}
     speed: 2
-    m_Value: {x: 0.098568805, y: 0.8751995, z: -0.199826, w: 0.42939463}
+    m_Value: {x: 0.0062860795, y: 0.9177308, z: -0.0132967075, w: 0.3969307}
   m_Size:
     m_Target: 2.7649477
     speed: 2
@@ -742,22 +742,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/StarterAssets
+    - Assets/Models/FBX Felipe
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/StarterAssets
+  - Assets/Models/FBX Felipe
   m_LastFoldersGridSize: 65
   m_LastProjectPath: E:\UnityProjects\MnemoLabDefinitiva\MnemoLab\MnemoLab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 170}
-    m_SelectedIDs: b2680000
-    m_LastClickedID: 26802
-    m_ExpandedIDs: 0000000020680000226800002468000026680000286800002a6800009668000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ca6d0000
+    m_LastClickedID: 28106
+    m_ExpandedIDs: 000000006c6800006e68000070680000726800007468000076680000e268000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,7 +785,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000020680000226800002468000026680000286800002a680000
+    m_ExpandedIDs: 000000006c6800006e68000070680000726800007468000076680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000ee9900008e640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
