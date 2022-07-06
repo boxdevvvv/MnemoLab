@@ -41,8 +41,8 @@ public class MovementCat : MonoBehaviour
     {
         if(!changeDirection)
         {
-            direction = 3;
-            transform.rotation = rotacion[1];
+            direction = 0;
+            transform.rotation = rotacion[0];
             changeDirection = true;
             return;
         }

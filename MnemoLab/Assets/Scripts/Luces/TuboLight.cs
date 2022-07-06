@@ -12,32 +12,35 @@ public class TuboLight : MonoBehaviour
     }
     public Light luz;
     private bool activate = true;
+    public float potencia = 5;
+    //public Material emision;
     IEnumerator lighting()
     {
         while (activate)
         {
          //   luz.gameObject.SetActive(false);
              luz.DOIntensity(0, 5);
+           // emision.SetColor()
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(2, 0.5f);
+            luz.DOIntensity(potencia, 0.5f);
             luz.gameObject.SetActive(true);
 
             yield return new WaitForSeconds(0.05f);
            // luz.gameObject.SetActive(false);
              luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(2, 0.5f);
+            luz.DOIntensity(potencia, 0.5f);
             luz.gameObject.SetActive(true);
             luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(2, 0.5f);
+            luz.DOIntensity(potencia, 0.5f);
             luz.gameObject.SetActive(true);
 
             yield return new WaitForSeconds(0.05f);
             //luz.gameObject.SetActive(false);
             luz.DOIntensity(0, 5);
             yield return new WaitForSeconds(0.05f);
-            luz.DOIntensity(2, 0.5f);
+            luz.DOIntensity(potencia, 0.5f);
             luz.gameObject.SetActive(true);
 
             luz.DOIntensity(0, .5f);
